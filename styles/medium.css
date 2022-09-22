@@ -10,6 +10,7 @@
         box-shadow: 3px 3px 20px rgb(185, 185, 185), -3px -3px 20px rgb(185, 185, 185);
     }
     header img {
+        width: 150px;
         height: 200px;
         grid-column: 1/2;
         grid-row: 1/4;
