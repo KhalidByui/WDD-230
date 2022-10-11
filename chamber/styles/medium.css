@@ -15,6 +15,10 @@
                 width: 170px;
                 padding-left: 10px;
             }
+            .logo-container h3 {
+                font-size: 23px;
+                margin-top: 73px;
+            }
             footer {
                 font-size: 38px;
             }

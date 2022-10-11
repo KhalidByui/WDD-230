@@ -71,6 +71,11 @@ nav {
     align-items: center;
 }
 
+.logo-container h3 {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
 .logo-container img {
     width: 150px;
 }

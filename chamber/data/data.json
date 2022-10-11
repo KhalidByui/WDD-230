@@ -1,0 +1,82 @@
+{
+    "news": [{
+            "title": "U-23 Afcon qualifiers olympic eagles- begin camping in Ibadan today",
+            "link": "https://www.completesports.com/u-23-afcon-qualifiers-olympic-eagles-begin-camping-in-ibadan-today/"
+        },
+        {
+            "title": "Flooding: Did Oyo goverment officails divert wolrd bank loans to Ogun state?",
+            "link": "https://www.insideoyo.com/flooding-did-oyo-govt-officials-divert-world-bank-loans-to-ogun-state-bank-account/"
+        },
+        {
+            "title": "Youth protest alleged illegal arrest by EFCC in Ibadan",
+            "link": "https://www.vanguardngr.com/2022/10/youths-protest-alleged-illegal-arrest-by-efcc-in-ibadan/"
+        },
+        {
+            "title": "NCDMB trains 500 youths on mobile phones repair in Ibadan",
+            "link": "https://www.vanguardngr.com/2022/09/ncdmb-trains-500-youths-on-gsm-repairs-in-ibadan/"
+        },
+        {
+            "title": "Hoodlums attack APC rally in Ibadan, some supporters injured",
+            "link": "https://punchng.com/hoodlums-attack-apc-rally-in-ibadan-supporters-injured/"
+        },
+        {
+            "title": "Education remains the most potent weapon to change the world - Professor Babalola",
+            "link": "https://www.thisdaylive.com/index.php/2022/10/10/babalola-education-remains-most-potent-weapon-to-change-the-world/"
+        },
+        {
+            "title": "Why Nigeria needs a decisive president in 2023 - By Barrister Ayorinde",
+            "link": "https://guardian.ng/news/why-nigeria-needs-decisive-president-in-2023-by-ayorinde/"
+        },
+        {
+            "title": "NBS, World Bank partner to ensure accuracy of survey data in Nigeria",
+            "link": "https://www.sunnewsonline.com/nbs-world-bank-partner-to-ensure-accuracy-of-survey-data-in-nigeria/"
+        }
+    ],
+    "businesses": [{
+            "name": "The Game Guy Ventures",
+            "email": "thegameguy.com",
+            "decscription": "Sales of Video games and video games accessories, mobile and phone accessories",
+            "imageurl": "images/game.webp",
+            "street": "9 lemomu Street",
+            "city": " Ibadan, Oyo, Nigeria",
+            "number": "0815 840 5166",
+            "website": "https://the-game-guy-ventures.business.site/",
+            "membership": "gold"
+        },
+        {
+            "name": "Ibadan Media",
+            "email": "info@ibadanmedia.com.ng",
+            "decscription": "Entertainment, Sports, Tech, Politics, News, Travel, and Lifestyle",
+            "imageurl": "images/media.webp",
+            "street": "Unit B3, Albarka Plaza, Favors, New Bodija, Ibadan, 234200, Ibadan",
+            "city": "Ibadan, Oyo, Nigeria",
+            "number": "0810 039 0046",
+            "website": "https://www.ibadanmedia.com/",
+            "membership": "silver"
+        },
+
+        {
+            "name": "Ibadan Business Hub",
+            "email": "info@businesshubibadan.com.ng",
+            "decscription": "Business networking, Business Growth, and Mentorship",
+            "imageurl": "images/hub.webp",
+            "street": "No 50, Olatubosun Avenue, Off Johnson Awe Street, Oluyole",
+            "city": "Ibadan, Oyo, Nigeria",
+            "number": "0817 170 0000",
+            "website": "https://ibadan-business-hub.business.site/?m=true",
+            "membership": "bronze"
+        },
+
+        {
+            "name": "Odua's Investment Company Limited",
+            "email": "info@oduainvestment.com.ng",
+            "decscription": "Business management consultant in Ibadan",
+            "imageurl": "images/odua.webp",
+            "street": "Floors 20-23, Cocoa House, Oba Adebimpe Road Dugbe, Ibadan",
+            "city": "Ibadan, Oyo, Nigeria",
+            "number": "+234 905 464 4944",
+            "website": "https://oduainvestment.com.ng/",
+            "membership": "silver"
+        }
+    ]
+}
