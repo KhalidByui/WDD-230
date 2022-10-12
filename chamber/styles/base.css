@@ -71,11 +71,6 @@ nav {
     align-items: center;
 }
 
-.logo-container h3 {
-    font-size: 16px;
-    margin-top: 25px;
-}
-
 .logo-container img {
     width: 150px;
 }
@@ -185,6 +180,18 @@ header ul a:active {
     background-color: #2c7da0;
 }
 
+.list2,
+.list5,
+.list6,
+.list7,
+.list8,
+.list9,
+.list10,
+.list12,
+.list13 {
+    display: none;
+}
+
 .event li {
     margin-bottom: 3px;
     font-family: "Dongle", sans-serif;
@@ -254,8 +261,52 @@ header ul a:active {
     width: 100%;
 }
 
+.join p {
+    margin-left: 20px;
+    color: #012a4a;
+    margin-bottom: 8px;
+}
+
+.join a {
+    border: 1px solid;
+    color: #2c7da0;
+    background-color: aliceblue;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 130px;
+}
+
+.join a:hover {
+    color: aliceblue;
+    background-color: #2c7da0
+}
+
 .hero {
     grid-row: 1;
+    padding-bottom: 40px;
+}
+
+.hero img {
+    margin-bottom: -72px;
+}
+
+.chamber {
+    text-decoration: none;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 20px;
+    font-size: 23px;
+    color: #012a4a;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.chamber:hover {
+    background-color: #012a4a;
+    color: aliceblue;
+    border-color: #012a4a;
 }
 
 #main .hero .hero-image img {

@@ -41,8 +41,7 @@ function make_spotlight(businesses) {
     for (let i = 0; i < businesses.length; i++) {
         const bizItem = businesses[i];
         bizItem["membership"] === "gold" || bizItem["membership"] === "silver" ?
-            goldSIlverBusinesses.push(bizItem) :
-            {};
+            goldSIlverBusinesses.push(bizItem) : {};
     }
 
     // pick a gold or silver member at random
