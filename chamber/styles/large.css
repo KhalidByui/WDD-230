@@ -130,15 +130,16 @@
     .join p {
         margin-left: 20px;
         color: #012a4a;
-        margin-bottom: 4px;
+        margin-bottom: -18px;
+        margin-top: 4px;
     }
     .join a {
         border: 1px solid;
         color: #2c7da0;
         background-color: aliceblue;
-        padding: 8px;
+        padding: 1px;
         text-decoration: none;
-        margin-left: 130px;
+        margin-left: 150px;
     }
     .hero {
         grid-column: 2/4;
