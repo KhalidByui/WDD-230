@@ -420,7 +420,6 @@ footer {
 
 .contact {
     position: flex;
-    flex-direction: row;
 }
 
 .contact img {
