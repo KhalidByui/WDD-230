@@ -418,10 +418,6 @@ footer {
     grid-template-columns: 100%;
 }
 
-.contact {
-    position: flex;
-}
-
 .contact img {
     width: 70px;
     margin-left: 23px;
