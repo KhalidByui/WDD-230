@@ -232,7 +232,8 @@
     .spot img {
         width: 265px;
     }
-    Discovery Page */ #discovermain {
+    /* Discovery Page */
+    #discovermain {
         margin: 0 auto;
         max-width: 1080px;
     }
