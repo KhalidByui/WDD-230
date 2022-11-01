@@ -290,4 +290,14 @@
         grid-column: 1/2;
         grid-row: 8;
     }
+    /* ----------------Join Ibadan Special Club -------------*/
+    #membership {
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 220px;
+    }
+    .thanks {
+        margin: 40px auto 120px auto;
+    }
 }
