@@ -144,14 +144,17 @@
         padding: 10px;
         text-decoration: none;
         margin-left: 150px;
+        margin-top: 40px;
     }
     .hero {
         grid-column: 2/4;
         grid-row: 1/2;
         padding-bottom: 30px;
+        
     }
     .hero img {
         margin-bottom: -100px;
+        height: 104.3%;
     }
     .new {
         grid-column: 2/4;
