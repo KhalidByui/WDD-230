@@ -326,4 +326,47 @@
     justify-content: space-evenly;
   }
 
+   /* ------------------------------ContactPage------------------------- */
+   .address-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    width: 600px;
+  }
+
+   .contact h3 {
+    font-size: 28px;
+  }
+  .contact h5 {
+    font-size: 18px;
+  }
+  .contact p {
+    margin-top: 32px;
+    font-size: 25px;
+  }
+  .contact-address {
+    width: 50%;
+  }
+  .contact-address img {
+    width: 100%;
+  }
+
+  .contact-card {
+    border-radius: 15px;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .envelop {
+    font-size: 300px;
+    height: 90%;
+  }
+
 }
