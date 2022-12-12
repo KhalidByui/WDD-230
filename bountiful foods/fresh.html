@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bountiful Foods - Fresh Page</title>
+    <meta name="description" content="Bountiful Foods" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!-- fav -->
+
+   
+    <link rel="icon" type="image/png" href="./images/favicon.ico" />
+    <link rel="manifest" href="./images/fav/site.webmanifest" />
+    <link rel="mask-icon" href="./images/fav/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="temple inn logo" />
+        <nav class="primary">
+            <button id="ham">&#9776;</button>
+            <ul id="menu" class="visuallyhidden">
+                <li><a id="home" href="./index.html">Home</a></li>
+                <li>
+                    <a id="fresh" href="./fresh.html">Fresh</a>
+                </li>
+                <li><a id="about" href="./about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="temple-main">
+        <div class="reservation-container">
+            <h3>Welcome to the fruits page! Here you can chose the type of fruit you want to add to your drink</h3>
+
+            <div class="temple-reservation-form-container">
+                <h3>Order Form</h3>
+                <form class="reservation-form" action="./fresh-thank-you.html" method="get">
+                    <label>
+              First Name
+              <input
+                type="text"
+                name="firstname"
+                pattern="^[A-Za-z -]{1,}$"
+                required
+            /></label>
+                    <label>
+              Last Name
+              <input
+                type="text"
+                name="lastname"
+                pattern="^[A-Za-z -]{1,}$"
+                required
+            /></label>
+                    <label> E-mail <input type="email" name="email" required /></label>
+                    <label>
+              Phone Number
+              <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
+            /></label>
+                    <label>
+              Location
+              <select class="form-temple-list" name="places">
+                <option value="San Diego">San Diego</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Carlsbad">Carlsbad</option>
+                <option value="Santa Catalina">Santa Catalina</option>
+              </select></label
+            >
+            <label> Date <input type="date" name="date" required /></label>
+                    <label>
+              Type of Fruit
+              <select class="form-temple-list" name="fruits">
+                <option value="apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="chery">Cherry</option>
+                <option value="grape">Grape</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="guava">Guava</option>
+                <option value="lemon">Lemon</option>
+              </select></label
+            >
+            <label>
+              Number Of Drink
+              <input type="number" value="1" name="drinknumbers" required
+            /></label>
+
+                    <label>Special Instructions
+              <textarea name="specialcomment" cols="30" rows="5"></textarea>
+            </label>
+                    <input class="reservation-button" type="submit" value="Order Your Drink" />
+                </form>
+            </div>
+            <div class="services-container-edit">
+              <h1 class="make-blue">Below are some of our fruits specialty you can try out!</h1>
+  
+              <div class="services-grid">
+                  <div class="reservation-room">
+                      <img src="./images/grape.jpg" alt="single bed" loading="lazy" height="300px"  />
+                      <h3>Grape Drink</h3>
+                      <ul>
+                          <li>Grape</li>
+                          <li>Lemon</li>
+                
+                      </ul>
+                  </div>
+                  <div class="reservation-room">
+                      <img src="./images/cherry.jpg" alt="double bed" loading="lazy" height="300px" />
+  
+                      <h3>Cherry Drink</h3>
+  
+                      <ul>
+                          <li>Cherry</li>
+                          <li>Banana</li>
+                        
+                      </ul>
+                  </div>
+  
+                  <div class="reservation-room">
+                      <img src="./images/apple.jpg" alt="quad bed" loading="lazy" />
+  
+                      <h3>Apple Drink</h3>
+  
+                      <ul>
+                          <li>Apple</li>
+                          <li>Blueberry</li>
+        
+                      </ul>
+                  </div>
+  
+                  <div class="reservation-room">
+                      <img src="./images/guava.jpg" alt="king bed" loading="lazy" />
+  
+                      <h3>Guava Drink</h3>
+  
+                      <ul>
+                          <li>Guava</li>
+                          <li>Lime</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-form">
+            <h3>Contact Us</h3>
+            <form action="./thankyou.html" method="get">
+              <label>
+                FULL-NAME <input type="text" name="fullname" required
+              /></label>
+              <label> E-MAIL <input type="email" name="email" required /></label>
+              <label>
+                YOUR MESSAGE
+                <textarea
+                  name="contact-message"
+                  cols="30"
+                  rows="5"
+                  required
+                ></textarea>
+              </label>
+              <input
+                class="footer-form-button"
+                type="submit"
+                value="Send Message"
+              />
+            </form>
+          </div>
+          <div class="footer-address-display">
+            <h3>Bountiful Foods</h3>
+            <div class="footer-socials">
+              <a href="http://facebook.com" target="_blank"
+                ><img src="./images/fb-icon.png" alt="facebook"
+              /></a>
+                  <a href="http://instagram.com" target="_blank"><img src="./images/insta-icon.png" alt="instagram" /></a>
+              </div>
+              <div class="footer-address">
+                  <a href="https://goo.gl/maps/uMrwiVuMK1Z1bJmo8"><img src="./images/location-icon.png" alt="location" /></a>
+                  <p>
+                      Bountiful Foods Headquarters 355 Chestnut Avenue, Carlsbad, California
+                  </p>
+              </div>
+              <div class="footer-phone">
+                  <img src="./images/phone-icon.png" alt="phone" />
+                  <p>412-907-7771</p>
+              </div>
+              </div>
+              <p class="copyright">
+                &copy; <span id="fyear">2022</span> Bountiful Foods | Elerunndu Victor
+                    Oluwapelumi | WDD 230 Project | <br/><br/>
+                    Last Modification: <span id="fMod"></span>
+            </p>
+              <p class="weather">
+                  Weather source
+                  <a href="https://openweathermap.org/" target="_blank">@OpenWeather</a>
+              </p>
+              <p class="weather">
+                  <a href="./attribution.html">Attribution Page</a>
+              </p>
+              </div>
+              </footer>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
